@@ -12,3 +12,7 @@
 [2-assembler](https://github.com/chelseyqc/holbertonschool-low_level_programming//blob/master/hello_world/2-assembler) - A script that generates the assembly code of a C code and saves it in an output file.
 - The C file name will be saved in the variable `$CFILE`
 - The output should be named the same as the C file, but with the extension `.s` instead of `.c`
+
+
+[3-name](https://github.com/chelseyqc/holbertonschool-low_level_programming//blob/master/hello_world/3-name) - A script that compiles a C file and creates an executable named `cisfun`.
+- The C file name will be saved in the variable $FCFILE
