@@ -15,4 +15,7 @@
 
 
 [3-name](https://github.com/chelseyqc/holbertonschool-low_level_programming//blob/master/hello_world/3-name) - A script that compiles a C file and creates an executable named `cisfun`.
-- The C file name will be saved in the variable $FCFILE
+- The C file name will be saved in the variable `$CFILE`
+
+
+[4-puts.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/hello_world/4-puts.c) - A C program that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line using the function `puts` and ends with the value 0.
