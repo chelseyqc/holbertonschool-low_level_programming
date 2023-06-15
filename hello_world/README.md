@@ -19,3 +19,6 @@
 
 
 [4-puts.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/hello_world/4-puts.c) - A C program that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line using the function `puts` and ends with the value 0.
+
+
+[5-printf.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/hello_world/5-printf.c) - A C program that prints exactly `with proper grammar, but the outcome is a piece of art,`, followed by a new line using the function `printf` and returns a `0`.
