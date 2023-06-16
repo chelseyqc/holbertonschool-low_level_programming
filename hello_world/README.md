@@ -22,3 +22,11 @@
 
 
 [5-printf.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/hello_world/5-printf.c) - A C program that prints exactly `with proper grammar, but the outcome is a piece of art,`, followed by a new line using the function `printf` and returns a `0`.
+
+
+[6-size.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/hello_world/6-size.c) - A C program that prints the size of various types on the computer it is compiled and run on and returns a `0`. The types are:
+- char
+- int
+- long int
+- long long int
+- float
