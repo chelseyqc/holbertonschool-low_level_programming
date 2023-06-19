@@ -6,3 +6,6 @@
 
 
 [2-print_alphabet.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/variables_if_else_while/2-print_alphabet.c) - A C program that prints the alphabet in lowercase, followed by a new line using `putchar`
+
+
+[3-print_alphabets.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/variables_if_else_while/3-print_alphabets.c) - A C program that prints the alphabet in lowercase and then in uppercase, followed by a new line using `putchar`
