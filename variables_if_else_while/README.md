@@ -12,3 +12,6 @@
 
 
 [4-print_alphabt.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/variables_if_else_while/4-print_alphabt.c) - A C program that prints the alphabet in lowercase except q and e, followed by a new line using `putchar`
+
+
+[5-print_numbers.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/variables_if_else_while/5-print_numbers.c) - A C program that prints all single digit numbers of base 10 starting from 0, followed by a new line
