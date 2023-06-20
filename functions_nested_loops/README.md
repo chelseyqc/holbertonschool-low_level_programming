@@ -23,3 +23,5 @@
 [6-abs.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/6-abs.c) - A C program that computes the absolute value of an integer
 
 
+[7-print_last_digit.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/7-print_last_digit.c) - A C program that prints the last digit of a number and returns the value of the last digit
+
