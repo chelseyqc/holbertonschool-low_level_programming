@@ -18,3 +18,8 @@
 - Returns `1` and prints `+` if n > 0
 - Returns `0` and prints `0` if n is 0
 - Returns `-1` and prints `-` if n < 0
+
+
+[6-abs.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/6-abs.c) - A C program that computes the absolute value of an integer
+
+
