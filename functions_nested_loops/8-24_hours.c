@@ -21,12 +21,8 @@ void jack_bauer(void)
 			_putchar((min % 10) + '0');
 			_putchar('\n');
 			min = min + 1;
-
-			if (min > 59)
-			{
-				hour = hour + 1;
-				min = 0;
-			}
 		}
+		min = 0;
+		hour = hour + 1;
 	}
 }
