@@ -10,3 +10,6 @@
 
 [3-islower.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/3-islower.c) - A C program that checks for lowercase character, and returns `1` if lowercase or `0` if not
 
+
+[4-isalpha.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/4-isalpha.c) - A C program that checks for alphabetic character, and returns `1` if `c` is a letter or `0` if not
+
