@@ -25,3 +25,7 @@
 
 [7-print_last_digit.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/7-print_last_digit.c) - A C program that prints the last digit of a number and returns the value of the last digit
 
+
+[8-24_hours.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/8-24_hours.c) - A C program that prints every minute of the day starting from 00:00 to 23:59
+
+
