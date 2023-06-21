@@ -29,3 +29,6 @@
 [8-24_hours.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/8-24_hours.c) - A C program that prints every minute of the day starting from 00:00 to 23:59
 
 
+[9-times_table.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/9-times_table.c) - A C program that prints the 9 times table, starting with 0
+
+
