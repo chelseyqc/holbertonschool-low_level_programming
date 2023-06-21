@@ -32,3 +32,6 @@
 [9-times_table.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/9-times_table.c) - A C program that prints the 9 times table, starting with 0
 
 
+[10-add.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/10-add.c) - A C program that adds two integers and returns the result
+
+
