@@ -8,3 +8,5 @@
 [2-Makefile](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/makefiles/2-Makefile) - A Makefile with the executable `school`, rules: `all`, and variables `CC`, `SRC`, `OBJ`, `NAME` without having a list of all the `.o` files
 
 
+[3-Makefile](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/makefiles/3-Makefile) - A Makefile with the executable `school`, rules: `all`, and variables `CC`, `SRC`, `OBJ`, `NAME`, and `RM` without having a list of all the `.o` files
+
