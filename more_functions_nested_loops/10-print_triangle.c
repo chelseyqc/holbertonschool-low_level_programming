@@ -19,7 +19,7 @@ void print_char(char to_print, int number_of_times)
 
 /**
 * print_triangle - prints a triangle followed by a new line
-*
+* @size: size of the triangle
 * Return: void
 */
 
