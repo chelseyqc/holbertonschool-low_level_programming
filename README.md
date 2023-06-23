@@ -40,7 +40,7 @@ A repository that contains the C project files and resources
 [100-intel](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/hello_world/100-intel) - A script that generates the assembly code (Intel syntax)  of a C code and saves it in an output file with the extension `.s`
 
 
-### [variables_if_else_while](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/variables_if_else_while)
+### [2. variables_if_else_while](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/variables_if_else_while)
 
 [0-positive_or_negative.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/variables_if_else_while/0-positive_or_negative.c) - A C program that assigns a random number to the variable `n` and prints whether the number stored is positive or negative
 
@@ -72,7 +72,7 @@ A repository that contains the C project files and resources
 [9-print_comb.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/variables_if_else_while/9-print_comb.c) - A C program that prints all possible combinations of single-digit numbers separated by a comma a followed by a space using `putchar`
 
 
-### [functions_nested_loops](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/functions_nested_loops)
+### [3. functions_nested_loops](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/functions_nested_loops)
 
 [0-putchar.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nest_loops/0-putchar.c) - A C program that prints `putchar` followed by a new line
 
@@ -113,7 +113,7 @@ A repository that contains the C project files and resources
 [11-print_to_98.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/functions_nested_loops/11-print_to_98.c) - A C program that prints all natural numbers from `n` to `98`, followed by a new line. Numbers must be separated by a comma, followed by a space and printed in order
 
 
-### [makefiles](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/makefiles)
+### [3. makefiles](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/makefiles)
 [0-Makefile](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/makefiles/0-Makefile) - The first Makefile, with the executable `school`, rules: `all`, and variables: none
 
 
@@ -129,7 +129,7 @@ A repository that contains the C project files and resources
 [4-Makefile](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/makefiles/4-Makefile) - A Makefile with executable `school`, rules: `all`, and variables `CC`, `SRC`, `OBJ`, `NAME`, `RM`, `CFLAGS` without having a list of all the `.o` files
 
 
-### [more_functions_nested_loops](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_functions_nested_loops)
+### [4. more_functions_nested_loops](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_functions_nested_loops)
 
 [0-isupper](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/more_functions_nested_loops/0-isupper.c) - A function that checks for an uppercase character and returns `1` if true or `0` if false
 
@@ -162,4 +162,3 @@ A repository that contains the C project files and resources
 
 
 [10-print_triangle.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/more_functions_nested_loops/10-print_triangle.c) - A function that prints a triangle using `#` followed by a new line, where `size` is the size of the triangle. If `size` is `0` or less, the functiomn should only print `\n`
-
