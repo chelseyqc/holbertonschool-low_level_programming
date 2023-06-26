@@ -8,3 +8,5 @@
 [2-strlen.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/pointers_arrays_strings/2-strlen.c) - A function that returns the length of a string `s`
 
 
+[3-puts.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/pointers_arrays_strings/3-puts.c) - A function that prints a string, followed by a new line to `stdout` using `_puts`
+
