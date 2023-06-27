@@ -8,30 +8,28 @@
 */
 int _atoi(char *s)
 {
+	int sign;
+	unsigned int num;
 	int index;
-	int sign_of_n;
-	int current_int;
 
+	num = 0;
+	sign = 1;
 	index = 0;
-	current_int = 0;
-	sign_of_n = 1;
-	while (s[index] == ' ')
+	while (s[index] != '\0' && (s[index] < '0' || s[index] > '9'))
 	{
+		if (s[index] == '-')
+		{
+			sign = sign * -1;
+		}
 		index = index + 1;
 	}
-	if (s[index] == '-')
+	if (s[index] != '\0')
 	{
-		sign_of_n = -1;
-		index = index + 1;
+		while (s[index] >= '0' && s[index] <= '9')
+		{
+			num = num * 10 + (s[index] - '0');
+			index = index + 1;
+		}
 	}
-	else if (s[index] == '+')
-	{
-		index = index + 1;
-	}
-	while (s[index] >= '0' && s[index] <= '9')
-	{
-		current_int = current_int * 10 + (s[index] - '0');
-		index = index + 1;
-	}
-	return (sign_of_n * current_int);
+	return (num * sign);
 }
