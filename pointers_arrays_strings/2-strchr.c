@@ -20,5 +20,5 @@ char *_strchr(char *s, char c)
 		}
 		index = index + 1;
 	}
-	return ('\0');
+	return ("NULL");
 }
