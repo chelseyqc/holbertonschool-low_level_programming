@@ -164,6 +164,7 @@ A repository that contains the C project files and resources
 [10-print_triangle.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/more_functions_nested_loops/10-print_triangle.c) - A function that prints a triangle using `#` followed by a new line, where `size` is the size of the triangle. If `size` is `0` or less, the functiomn should only print `\n`
 
 
+### [pointers_arrays_strings](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/pointers_arrays_strings)
 [0-reset_to_98.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/pointers_arrays_strings/0-reset_to_98.c) - A function that takes a point to an `int` as parameter and updates the value it points to to `98`
 
 
