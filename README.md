@@ -245,3 +245,70 @@ A repository that contains the C project files and resources
 
 [8-print_diagsums.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/pointers_arrays_strings/8-print_diagsums.c) - A function that prints the sum of two diagonals of a square matrix of integers
 
+
+### 6. recursion
+[0-puts_recursion.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/recursion/0-puts_recursion.c) - A function that prints a string, followed by a new line
+
+
+[1-print_rev_recusion.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/recursion/1-print_rev_recusion.c) - A function that prints a string in reverse
+
+
+[2-strlen_recursion.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/recursion/2-strlen_recursion.c) - A function that returns the length of a string
+
+
+[3-factorial.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/recursion/3-factorial.c) - A function that returns the factorial of a given number, if `n` is lower than `0`, the function should return `-1` to indicate an error
+
+
+[4-pow_recursion.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/recursion/4-pow_recursion.c) - A function that returns the value of `x` raised to the power of `y`
+
+
+[5-sqrt_recursion.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/recursion/5-sqrt_recursion.c) - A function that returns the natural square root of a number, if `n` does not have a natural square root, the function should return `-1`
+
+
+[6-is_prime_number.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/recursion/6-is_prime_number.c) - A function that returns a `1` if the input integer is a prime number, otherwise return `0`
+
+
+### 7. static_libraries
+[libmy.a](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/static_libraries/libmy.a) - A static library containing the functions listed below:
+```
+int _putchar(char c);
+int _islower(int c);
+int _isalpha(int c);
+int _abs(int n);
+int _isupper(int c);
+int _isdigit(int c);
+int _strlen(char *s);
+void _puts(char *s);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n);
+int _strcmp(char *s1, char *s2);
+char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
+char *_strstr(char *haystack, char *needle);
+```
+
+
+[create_static_lib.sh](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/static_libraries/create_static_lib.sh) - A script that creates a static library called `liball.a` from all the `.c` files that are in the current directory
+
+
+### 8. argc_argv
+[0-whatsmyname.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/argc_argv/0-whatsmyname.c) - A program that prints its name, followed by a new line
+
+
+[1-args.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/argc_argv/1-args.c) - A program that prints the number of arguments passed into it
+
+
+[2-args.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/argc_argv/2-args.c) - A program that prints all arguments it receives
+
+
+[3-mul.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/argc_argv/3-mul.c) - A program that multiplies two numbers and prints the result of the multiplication, followed by a new line
+
+
+[4-add.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/argc_argv/4-add.c) - A program that adds positive numbers and prints the result, followed by a new line. If no number is passed to the program, print `0` followed by a new line. If one of the number contains symbols that are not digits, print `Error`, followed by a new line and return `1`
+
