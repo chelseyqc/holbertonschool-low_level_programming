@@ -246,7 +246,7 @@ A repository that contains the C project files and resources
 [8-print_diagsums.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/pointers_arrays_strings/8-print_diagsums.c) - A function that prints the sum of two diagonals of a square matrix of integers
 
 
-### 6. recursion
+### [6. recursion](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/recursion)
 [0-puts_recursion.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/recursion/0-puts_recursion.c) - A function that prints a string, followed by a new line
 
 
@@ -268,7 +268,7 @@ A repository that contains the C project files and resources
 [6-is_prime_number.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/recursion/6-is_prime_number.c) - A function that returns a `1` if the input integer is a prime number, otherwise return `0`
 
 
-### 7. static_libraries
+### [7. static_libraries](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/static_libraries)
 [libmy.a](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/static_libraries/libmy.a) - A static library containing the functions listed below:
 ```
 int _putchar(char c);
@@ -297,7 +297,7 @@ char *_strstr(char *haystack, char *needle);
 [create_static_lib.sh](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/static_libraries/create_static_lib.sh) - A script that creates a static library called `liball.a` from all the `.c` files that are in the current directory
 
 
-### 8. argc_argv
+### [8. argc_argv](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/argc_argv)
 [0-whatsmyname.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/argc_argv/0-whatsmyname.c) - A program that prints its name, followed by a new line
 
 
