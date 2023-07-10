@@ -4,7 +4,7 @@
 /**
 * alloc_grid - returns a pointer to a 2D array of integers
 * @width: width of the array
-* @length: length of the array
+* @height: height of the array
 *
 * Return: a pointer to a 2D array, or NULL on failure
 */
