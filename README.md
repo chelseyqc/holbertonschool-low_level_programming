@@ -330,7 +330,7 @@ char *_strstr(char *haystack, char *needle);
 
 
 ### [10. more_malloc_free](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_malloc_free)
-0-malloc_checked.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_malloc_free/0-malloc_checked.c) - A function that allocates memory using `malloc`. Returns a pointer to the allocated memory. If `malloc` fails, the `malloc_checked` function should cause normal process termination with a status value of `98`
+[0-malloc_checked.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_malloc_free/0-malloc_checked.c) - A function that allocates memory using `malloc`. Returns a pointer to the allocated memory. If `malloc` fails, the `malloc_checked` function should cause normal process termination with a status value of `98`
 
 
 [1-string_nconcat.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_malloc_free/1-string_nconcat.c) - A function that concatenates two strings, the returned pointer shall point to a newly allocated space in memory that contains `s1`, followed by the first `n` bytes of `s2`, and null terminated. If the function fails, it should return `NULL`. If `n` is greater or equal to the length of `s2`, then use the entire string `s2`. If `NULL` is passed, treat it as an empty string
