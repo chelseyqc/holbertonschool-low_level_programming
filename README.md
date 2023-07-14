@@ -312,3 +312,48 @@ char *_strstr(char *haystack, char *needle);
 
 [4-add.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/argc_argv/4-add.c) - A program that adds positive numbers and prints the result, followed by a new line. If no number is passed to the program, print `0` followed by a new line. If one of the number contains symbols that are not digits, print `Error`, followed by a new line and return `1`
 
+
+### [9. malloc_free](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/malloc_free)
+[0-create_array.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/malloc_free/0-create_array.c) - A function that creates an array of chars and initializes it with a specific char
+
+
+[1-strdup.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/malloc_free/1-strdup.c) - A function that returns a pointer to a newly allocated space in memory which contains a copy of the string given as a parameter. Returns `NULL` if str = `NULL`
+
+
+[2-str_concat.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/malloc_free/2-str_concat.c) - A function that concatenates two strings, returns a pointer to the newly allocated space in memory which contains the contents of `s1`, followed by the contents of `s2`, and null terminated, if `NULL` is passed, treat it as an empty string. The function should return `NULL` on failure
+
+
+[3-alloc_grid.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/malloc_free/3-alloc_grid.c) - A function that returns a pointer to a 2 dimensional array of integers, each element of the grid should be initialized to `0` and the function should return `NULL` on failure. If `width` or `height` is `0` or negative will return `NULL`
+
+
+[4-free_grid.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/blob/master/malloc_free/4-free_grid.c) - A function that frees a 2 dimensional grid previously created by `alloc_grid`
+
+
+### [10. more_malloc_free](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_malloc_free)
+0-malloc_checked.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_malloc_free/0-malloc_checked.c) - A function that allocates memory using `malloc`. Returns a pointer to the allocated memory. If `malloc` fails, the `malloc_checked` function should cause normal process termination with a status value of `98`
+
+
+[1-string_nconcat.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_malloc_free/1-string_nconcat.c) - A function that concatenates two strings, the returned pointer shall point to a newly allocated space in memory that contains `s1`, followed by the first `n` bytes of `s2`, and null terminated. If the function fails, it should return `NULL`. If `n` is greater or equal to the length of `s2`, then use the entire string `s2`. If `NULL` is passed, treat it as an empty string
+
+
+[2-calloc.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_malloc_free/2-calloc.c) - A function that allocates memory for an array, using `malloc`. The `_calloc` function allocates memory for an array of `nmemb` elements of `size` bytes each and returns a pointer to the allocated memory. If `nmemb` or `size` is `0`, then `_calloc` returns `NULL`. If `malloc` fails, then `_calloc` returns `NULL`
+
+
+[3-array_range.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/more_malloc_free/3-array_range.c) - A function that creates an array of integers. The array created should contain all the values from `min` (included) to `max` (included), ordered from `min` to `max`. Returns the pointer to the newly created array. If `min` > `max`, return `NULL`, if `malloc` fails, return `NULL`
+
+
+### [11. preprocessor](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/preprocessor)
+[0-object_like_macro.h](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/preprocessor/0-object_like_macro.h) - A header file that defines a macro named `SIZE` as an abbreviation for token `1024`
+
+
+[1-pi.h](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/preprocessor/1-pi.h) - A header file that defines a macro named `PI` as an abbreviation for the token `3.14159265359`
+
+
+[2-main.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/preprocessor/2-main.c) - A program that prints the name of the file it was compiled from, followed by a new line.
+
+
+[3-function_like_macro.h](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/preprocessor/3-function_like_macro.h) - A function-like macro `ABS(x)` that computes the absolute value of a number `x`
+
+
+[4-sum.h](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/preprocessor/4-sum.h) - A function-like macro `SUM(x, y)` that computes the sum of the numbers `x` and `y`
+
