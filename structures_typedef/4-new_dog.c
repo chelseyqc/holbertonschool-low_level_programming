@@ -25,15 +25,16 @@ char *_strdup(char *str)
 		src_index = src_index + 1;
 	}
 	copy = (char *)malloc(sizeof(char) * (src_index + 1));
+	if (copy == NULL)
+	{
+		return (NULL);
+	}
 	while (dest_index < src_index)
 	{
-		if (copy == NULL)
-		{
-			return (NULL);
-		}
 		copy[dest_index] = str[dest_index];
 		dest_index = dest_index + 1;
 	}
+	copy[dest_index] = '\0';
 	return (copy);
 }
 
@@ -42,6 +43,8 @@ char *_strdup(char *str)
 * @name: name of dog
 * @age: age of dog
 * @owner: owner of dog
+*
+* Return: description of dog, otherwise NULL
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
