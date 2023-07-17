@@ -24,7 +24,7 @@ char *_strdup(char *str)
 	{
 		src_index = src_index + 1;
 	}
-	copy = malloc(sizeof(char) * (src_index + 1));
+	copy = (char *)malloc(sizeof(char) * (src_index + 1));
 	while (dest_index < src_index)
 	{
 		if (copy == NULL)
