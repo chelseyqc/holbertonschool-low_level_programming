@@ -6,7 +6,7 @@
 * @argc: argument count
 * @argv: contains the arguments
 *
-* Return: 1 if argument count error or 2 if number of bytes is negative
+* Return: opcode, otherwise error
 */
 int main(int argc, char *argv[])
 {
@@ -15,12 +15,12 @@ int main(int argc, char *argv[])
 	char *prntz_opcode;
 
 	prntz_opcode = (char *)main;
-	bytes = atoi(argv[1]);
 	if (argc != 2)
 	{
 		printf("Error\n");
 		exit(1);
 	}
+	bytes = atoi(argv[1]);
 	if (bytes < 0)
 	{
 		printf("Error\n");
@@ -40,4 +40,5 @@ int main(int argc, char *argv[])
 		}
 		index = index + 1;
 	}
+	return (0);
 }
