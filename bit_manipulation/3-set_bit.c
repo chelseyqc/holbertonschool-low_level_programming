@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* set_bit
+* set_bit - sets the value of a bit to 1 at the given index
 * @n: the input number
 * @index: the given index
 *
