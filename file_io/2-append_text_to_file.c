@@ -7,8 +7,8 @@
 
 /**
 * append_text_to_file - appends text at the end of a file
-* filename: name of the file
-* text_content: the terminated string to add at the end of the file
+* @filename: name of the file
+* @text_content: the terminated string to add at the end of the file
 *
 * Return: 1 on success or -1 on failure
 */
