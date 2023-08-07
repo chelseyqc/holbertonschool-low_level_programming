@@ -7,7 +7,7 @@
 #include <unistd.h>
 
 /**
-* read_textfile - reads a tet file and prints it to the POSIX stdout
+* read_textfile - reads a text file and prints it to the POSIX stdout
 * @filename: the name of the file
 * @letters: the number of letters it should read and print
 *
@@ -34,7 +34,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		return (0);
 	}
-	write_bytes = write(1, buf, read_bytes);
+	write_bytes = write(STDOUT_FILENO, buf, read_bytes);
 	if ((write_bytes == -1) | (read_bytes != write_bytes))
 	{
 		return (0);
