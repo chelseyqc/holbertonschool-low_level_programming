@@ -23,11 +23,6 @@ hash_table_t *hash_table_create(unsigned long int size)
 	{
 		return (NULL);
 	}
-	table->array = malloc(sizeof(*(table->array)); /* alloc mem for array */
-	if (table->array == NULL)
-	{
-		return (NULL);
-	}
 	/* alloc mem for array of pointers that will hold hash table entries */
 	table->array = malloc(sizeof(*(table->array)) * size);
 	if (table->array == NULL)
