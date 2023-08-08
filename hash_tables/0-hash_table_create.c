@@ -14,7 +14,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	hash_table_t *table;
 
 	index = 0;
-	if (size = 0) /* size = 0 means hash table is invalid */
+	if (size == 0) /* size = 0 means hash table is invalid */
 	{
 		return (NULL);
 	}
