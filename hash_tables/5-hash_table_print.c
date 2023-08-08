@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
-* hash_table_print
+* hash_table_print - prints a hash table
 * @ht: the hash table to print
 *
 * Return: void
@@ -36,7 +36,7 @@ void hash_table_print(const hash_table_t *ht)
 				printf(", ");
 			}
 			printf("'%s': '%s'", node->key, node->value);
-                        node = node->next;
+			node = node->next;
 		}
 		index = index + 1;
 	}
