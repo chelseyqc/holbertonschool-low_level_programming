@@ -1,3 +1,4 @@
+# Script descriptions
 [0-hash_table_create.c](https://github.com/chelseyqc/holbertonschool-low_level_programming/tree/master/hash_tables/0-hash_table_create.c) - A function that creates a hash table
 
 
