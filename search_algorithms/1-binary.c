@@ -3,8 +3,8 @@
 /**
 * print_array - the array
 * @array: a pointer to the first element of the array to search in
-* @size: the number of elements in array
-* @value: the value to search for
+* @low: lower index of the array
+* @high: higher index of the array
 *
 * Return: void
 */
